@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+Developer & Designer: Ennio Simões
+Site: http://www.geekando.com.br
+Twitter: @GeekandoOficial
+Location: Guarulhos / São Paulo
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
