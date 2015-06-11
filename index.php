@@ -26,7 +26,7 @@
                 $config->author = 'teste';
                 print_r($config);
                 ?> 
-            <p class="wow bounceInRight animated" data-wow-duration="2s">Se quiser fazer uma firula igual a essa você ja tem o Animate.css, para conhecer mais animações clique <a href="https://github.com/daneden/animate.css" target="_blank">AQUI</a> para controlar os tempo das animações use WOW.js <a href="https://github.com/matthieua/WOW" target="_blank">LINK AQUI</a></p>
+            <p class="wow bounceInRight animated" data-wow-duration="5s">Se quiser fazer uma firula igual a essa você ja tem o Animate.css, para conhecer mais animações clique <a href="https://github.com/daneden/animate.css" target="_blank">AQUI</a> para controlar os tempo das animações use WOW.js <a href="https://github.com/matthieua/WOW" target="_blank">LINK AQUI</a></p>
             <h2>Tecnologias</h2>
             <ul>
                 <li>Bootstrap v3.3.1</li>

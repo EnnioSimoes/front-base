@@ -36,11 +36,7 @@
         <link rel="shortcut icon" href="<?= 'http://' . $_SERVER["SERVER_NAME"] ?>/favicon.png" type="image/png"> <!-- link absoluto do favicon -->
         
         <?php include 'css.php'; ?>
-        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <script src="assets/js/vendor/wow.min.js"></script>
-        <script>
-         new WOW().init();
-        </script>
+
         <meta charset="UTF-8">
         <title>Front-Base</title>
     </head> 

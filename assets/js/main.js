@@ -1,7 +1,10 @@
 $(document).ready(function(){
-  $('.banner-home').slick({
-        infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3
-  });
+    $('.banner-home').slick({
+          infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3
+    });
+
+    new WOW().init();
+
 });
