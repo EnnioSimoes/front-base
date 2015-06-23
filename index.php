@@ -18,6 +18,14 @@
                 <div><img src="http://placehold.it/300x200"></div>
                 <div><img src="http://placehold.it/300x200"></div>
             </div>
+            <menu>
+                <ul>
+                    <li>teste</li>
+                    <li>teste</li>
+                    <li>teste</li>
+                    <li>teste</li>
+                </ul>
+            </menu>
         </header><!-- end header-->
         <div id="content"> 
             <pre>

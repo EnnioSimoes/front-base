@@ -35,6 +35,7 @@
         <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
         <link rel="shortcut icon" href="<?= 'http://' . $_SERVER["SERVER_NAME"] ?>/favicon.png" type="image/png"> <!-- link absoluto do favicon -->
         
+        <!-- Aplique os CSS em css.php -->
         <?php include 'css.php'; ?>
 
         <meta charset="UTF-8">

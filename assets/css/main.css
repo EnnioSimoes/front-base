@@ -1,1 +1,5 @@
-.slick-next:before,.slick-prev:before{color:#ccc}
+@import "bootstrap.min.css";
+@import "font-awesome.min.css";
+@import "animate.min.css";
+@import "responsive.css";
+main{color:#f33;background:#444}.slick-next:before,.slick-prev:before{color:#333}menu li{list-style:none;display:inline;color:#f33}
