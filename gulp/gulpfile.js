@@ -48,7 +48,7 @@ gulp.task( 'otimizar-site', function() {
 gulp.task('stylus', function () {
   gulp.src('./../assets/stylus/main.styl')
     .pipe(stylus({
-      compress: false
+      compress: true
     }))
     .pipe(gulp.dest('./../assets/css'));
 });
