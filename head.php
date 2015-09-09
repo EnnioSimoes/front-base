@@ -1,43 +1,43 @@
-<?php include 'bootstrap.php'; ?>
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <!-- Core Meta Data -->
-        <meta name="author" content="<?=$config->author; ?>">
-        <meta name="description" content="<?=$config->description; ?>">
-        <meta name="keywords" content="<?=$config->keywords; ?>">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="../../favicon.ico">
 
-        <!-- Facebook Tags -->
-        <meta property="og:description" content="<?=$config->description; ?>">
-        <meta property="og:image" content="<?=$config->siteUrl; ?>/avatar_face.png">
-        <meta property="og:site_name" content="<?=$config->siteName; ?>">
-        <meta property="og:title" content="<?=$config->pageTitle; ?>">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="<?= 'http://' . $_SERVER["SERVER_NAME"] ?>">
-
-        <!-- Twitter tags -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="<?=$config->siteUrl; ?>">
-        <meta name="twitter:creator" content="<?=$config->userTwitter; ?>">
-        <meta name="twitter:title" content="<?=$config->pageTitle; ?>">
-        <meta name="twitter:description" content="<?=$config->description; ?>">
-        <meta name="twitter:image" content="<?= 'http://' . $_SERVER["SERVER_NAME"] ?>/avatar_face.png">
-
-        <!-- Humans -->
-        <link rel="author" href="humans.txt" />
-
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
-        <link rel="shortcut icon" href="<?= 'http://' . $_SERVER["SERVER_NAME"] ?>/favicon.png" type="image/png"> <!-- link absoluto do favicon -->
-        
-        <!-- Aplique os CSS em css.php -->
-        <?php include 'css.php'; ?>
-
-        <meta charset="UTF-8">
         <title>Front-Base</title>
-    </head> 
+
+        <!--Sliders e banners-->
+        <link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
+        <!-- Add the new slick-theme.css if you want the default styling -->
+        <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
+        <!-- Arquivo original em stylus/main.styl -->
+        <link rel="stylesheet" href="assets/css/main.css">         
+
+        <!-- Custom styles for this template -->
+        <link href="blog.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="blog-masthead">
+            <div class="container">
+                <nav class="blog-nav">
+                    <a class="blog-nav-item active" href="#">Home</a>
+                    <a class="blog-nav-item" href="#">New features</a>
+                    <a class="blog-nav-item" href="#">Press</a>
+                    <a class="blog-nav-item" href="#">New hires</a>
+                    <a class="blog-nav-item" href="#">About</a>
+                </nav>
+            </div>
+        </div>
