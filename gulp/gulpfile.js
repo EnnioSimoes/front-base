@@ -10,8 +10,8 @@ var stylus = require('gulp-stylus');
 gulp.task('scripts', function() {
     return gulp.src([
         './../assets/js/modernizr-2.8.3.min.js',
-        './../assets/js/wow.min.js',
-        './../assets/js/jquery-1.11.2.min.js',
+        //'./../assets/js/wow.min.js',
+        './../assets/js/jquery-1.11.3.min.js',
         './../assets/js/bootstrap.min.js',
         './../assets/js/main.js'
     ])
