@@ -28,16 +28,29 @@ gulp.task('minify-css', function() {
     //.pipe( notify( 'CSS OK!' ));
 });
 
-//Otimizar imagens na pasta img
-gulp.task('imagemin', function () {
-    return gulp.src(['./../assets/img/*.jpg','./../assets/img/*.png'])    
-    .pipe(imagemin({
-        progressive: true,
-        svgoPlugins: [{removeViewBox: false}],
-        use: [pngquant()]
-    }))
-    .pipe(gulp.dest('./../assets/img'));
-});
+// //Otimizar imagens na pasta img
+// gulp.task('imagemin', function () {
+//     return gulp.src(['./../assets/img/*.jpg','./../assets/img/*.png'])    
+//     .pipe(imagemin({
+//         progressive: true,
+//         svgoPlugins: [{removeViewBox: false}],
+//         use: [pngquant()]
+//     }))
+//     .pipe(gulp.dest('./../assets/img'));
+// });
+
+// //Otimizar imagens na pasta img
+gulp.task('imagemin', () =>
+    gulp.src([
+        './../assets/img/**/**/**/*.jpg',
+        './../assets/img/**/**/**/*.JPG',
+        './../assets/img/**/**/**/*.png',
+        './../assets/img/**/**/**/*.PNG'
+    ])
+        .pipe(imagemin())
+        .pipe(gulp.dest('./../assets/img'))
+);
+
 
 //Otimza JS CSS IMG
 gulp.task( 'otimizar-site', function() {
